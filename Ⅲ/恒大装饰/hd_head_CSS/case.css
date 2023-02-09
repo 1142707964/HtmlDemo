@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+body{ background:#333; list-style:none;}
+body a{ text-decoration:none;}
+.all{ width:1000px; margin:0 auto;}
+.neck{ width:1000px; height:150px; margin-top:30px; float:left;}
+.neck_img1{ width:442px; height:150px; border:1px solid #333; float:left;}
+.neck_img2{ width:250px; height:150px; border:1px solid #333; float:left;}
+.neck_img3{ width:160px; height:150px; border:1px solid #333; float:left;}
+.neck_img4{ width:140px; height:150px; border:1px solid #333; float:left;}
+
+
+.title{ width:1000px; height:40px; background:#000; font:bold 20px 微软雅黑; color:#666; margin:20px 0 0 0; float:left; line-height:35px;}
+.title a:link{ color:#FFF;}
+.title a:hover{ color:#F60;}
+.title span{ margin:0 0 0 700px; font:bold 16px 微软雅黑;}
+.list{ width:1000px; height:230px; float:left; margin:20px 0 0 0;}
+.list_left{ width:483px; height:230px; margin:0 30px 20px 0; float:left;}
+.left_img{ width:270px; height:230px; float:left;}
+.left_content{ width:200px; height:230px; float:left; background:#000; padding-left:13px;}
+.left_content_li{ color:#F60; font:bold 16px 微软雅黑; margin:15px 0 15px 0;}
+.left_content_li1{ color:#666; font:bold 14px 楷书; line-height:23px;}
+.left_content_li1 span{ color:#CCC; font:bold 14px 微软雅黑;}
+.left_content_li1 a:link{ color:#FFF; text-decoration:underline; font:bold 14px 微软雅黑;}
+.left_content_li1 a:hover{ color:#F60;}
+.left_content_li2{width:80px; height:25px; background:#F60; text-align:center; margin:25px 0 0 110px;}
+.left_content_li2 a:link{ color:#FFF; font:bold 16px 微软雅黑;}
+.list_right{ width:483px; height:230px; float:left;}
+
+
+.paging{width:1000px; height:40px; background:#000; float:left; margin:30px 0 0 0;}

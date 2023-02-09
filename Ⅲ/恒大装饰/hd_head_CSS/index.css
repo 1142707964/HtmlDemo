@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+/*首页*/
+body{ background-color:#333; list-style:none; text-decoration:none;}
+body a:link{ text-decoration:none;}
+
+
+/*********************************************大图文字介绍************************************************/
+.all{ width:1000px;margin:0 auto;}
+.neck{ width:1000px; height:240px; float:left; margin-top:40px; background:#000;}
+.center_txt1{width:490px; height:240px; float:left;}
+.center_img{ width:490px; height:200px; border:1px solid #06F; float:left; position:relative; overflow:hidden;}
+.center_word{ width:490px; height:40px; float:left; color:#999; font:bold 14px 微软雅黑; text-align:center;}
+.center_word span{ margin:5px 25px 0 25px;}
+.center_txt{ width:490px; height:240px; float:left; margin-top:10px;}
+.neck_h2{ color:#FFF; font:bold 24px 微软雅黑; padding:10px 0 0 20px;}
+.neck_li{ color:#999; line-height:25px; font-size:12px; font-weight:bold; margin:20px 0 0 20px;}
+.neck input{ width:100px; height:30px; float:left; font:bold 14px 幼圆; margin:10px 0 0 20px;}
+.neck input a:link{ color:#CCC;}
+.neck input a:hover{ color:#F60;}
+
+/*********************************************01,02,03************************************************/
+.number{ width:1000px; heght:110px; float:left;}
+.number_txt{ width:330px; height:110px; float:left; float:left;}
+.number_img{ width:70px; height:110px; font:bold 80px 宋体; float:left; color:#CCC; margin-top:10px;}
+.number_content{ width:250px; height:110px; float:left; margin:20px 0 0 10px;}
+.number_dd_title{ color:#999; font:bold 14px 楷书; float:left;}
+.number_dd_title a:link{ font:bold 14px 楷书; color:#F60;}
+.number_dd_content{ font:bold 12px 楷书; color:#CCC; float:left;}
+.number_dd_content1{ float:left;}
+.number_dd_content1 a:link{ font:bold 12px 楷书; color:#CCC;}
+.number_dd_content1 a:hover{ color:#F60;}
+
+/*********************************************恒大新闻************************************************/
+.news{ width:400px; height:240px; float:left; margin-top:20px;}
+.news_txt{ width:400px; height:100px; float:left;}
+.news_title{ width:400px; height:30px; font:bold 16px 微软雅黑; color:#CCC;}
+.new_img{ width:100px; height:80px; border:1px solid #000; float:left;}
+.new_content{ width:290px; height:80px; float:left; margin-left:5px;}
+.new_dd{ font:bold 16px 楷书; color:#F60; float:left;}
+.new_dd1{ font:bold 14px 楷书; color:#CCC; float:left; margin-top:15px;}
+.new_dd2{ color:#999; font-size:14px; float:left; margin-top:15px;} 
+.news_character{width:400px; height:70px; float:left; margin-top:25px;}
+.new_character_left{width:250px; float:left; font:bold 14px 楷书; line-height:30px; color:#CCC;}
+.new_character_left a:link{ color:#999;}
+.new_character_left a:hover{ color:#F60;}
+.new_character_right{ width:50px; float:left; font-size:12px; color:#999; line-height:30px; margin-left:60px;}
+
+/*********************************************设计案例************************************************/
+.case{ width:593px; height:240px; margin:10px 0 0 5px; float:left;}
+.case_title{ width:593px; height:30px; font:bold 16px 微软雅黑; color:#CCC;}
+.case_pre{ width:10px; height:150px; float:left; margin:100px 0 0 10px; color:#FFF; cursor:pointer;}
+.case_next{ width:10px; height:150px; float:left; margin:90px 0 0 10px; color:#FFF; cursor:pointer;}
+#case_txt{ width:593px; height:205px; margin:5px 0 0 0; float:left; border:1px solid #000; overflow:hidden; position:relative; background:#000;}
+#case_txt li{float:left;}
+.case_txt1 li{ width:170px; height:160px; margin:5px 0 0 3px; list-style:none;}
+.case_txt li a{ color:#CCC; text-decoration:none; font:bold 16px 微软雅黑;}
+.case_txt img{ width:165px; height:130px;}
+.case_txt span{ margin-left:50px;}
+
+
+/*其他样式，与scroll对象无关联*/
+.pre{ width:10px; height:20px; margin:20px 5px 0 0; background:url(prenext.gif) no-repeat 0 100%; cursor:pointer; float:left}
+.next{width:10px; height:20px; margin:20px 0 0 5px; background:url(prenext.gif) no-repeat 100% 100%; cursor:pointer; float:left}
+
+
+
+/*********************************************关于我们************************************************/
+.regard{ width:1000px; height:200px; float:left; margin-top:30px;}
+.regard_title{ font:bold 20px 微软雅黑; color:#CCC; width:1000px; heigh:30px;}
+.regard_txt{ width:100%; height:150px; float:left; background-color:#333; margin-top:30px;}
+.regard_txt_div{ width:320px; height:150px; float:left; margin:25px 10px 0 0;}
+.regard_img{ width:150px; height:90px; border:2px solid #CCC; float:left;}
+.regard_content{ width:155px; height:90px; margin:0 0 0 10px; float:left;}
+.regard_dd{ font:bold 20px 微软雅黑; color:#CCC; float:left;}
+.regard_dd1{ font:bold 12px 楷书; color:#999; float:left; margin-top:3px;}
+.regard_dd2{ color:#CCC; font-size:12px; float:left; margin-top:13px;}
+.regard_dd2 a:link{ color:#F60;}
+.regard_dd2 a:hover{ color:#CCC;}
+

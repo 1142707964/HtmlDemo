@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*********************************************************************全局***********************************************/
+body,div,h1,h2,h3,h4,h5,h6,p,img,ul,ol,li{margin:0;padding:0;}
+body{font-family:"宋体",Arial, Helvetica;font-size:12px;}
+ul,ol{list-style-type:none; }
+a,a:hover{text-decoration:none;}
+img{border:none;}
+.clear{clear:both;}
+.content{width:100%; height:1350px; margin:0 auto; background-color:#25262a; }
+
+/*********************************************************************head flash***********************************************/
+.flash{ background-color:#16171b; width:1098px; height:319px; margin-left:auto; margin-right:auto; border-bottom:1px solid  #666; border-left:2px solid #000; border-top:1px solid #000;}
+.top_img{ width:1060px; height:280px; margin-left:20px; padding-top:20px; overflow:hidden; }
+.top_img img{ float:left;}
+.cent{width:1100px; height:680px; margin-left:auto; margin-right:auto; margin-top:25px;}
+.cent li a{ color:#FFF;}
+.cent li a:hover{ font-weight:bold; font-size:16px;}
+.cent h3 a:hover{font-size:18px;font-weight:bold;}
+.cent_left{ width:238px; height:169px; margin-top:15px; float:left; background-color:#16171b; border-bottom:1px solid  #666; border-left:2px solid #000;border-top:1px solid #000;}
+.cent_left li { margin-top:30px; margin-left:10px;background-image:url(../hz_img/ann2.png); background-color:#16171b no-repeat; width:100px; height:40px; font-weight:bold; list-style-type:none; float:left; text-align:center; line-height:36px; font-size:14px; }
+.cent_left li a{color:#FFF;}
+.cent_left li a:hover { color:#F90; font-size:16px;}
+.cent_cent{ width:400px; height:300px; margin-left:30px; margin-top:20px; float:left;}
+.cent_right{width:400px; height:300px; margin-left:30px; margin-top:20px; float:left;}
+.cent_left2{ width:238px; height:260px; margin-top:20px; float:left; background-color:#16171b; border-bottom:1px solid  #666; border-left:2px solid #000;border-top:1px solid #000;}
+.cent_left2 img{padding-top:15px; padding-left:10px;}
+.cent_left3{ width:238px; height:160px;margin-top:10px; float:left; background-color:#16171b; border-bottom:1px solid  #666; border-left:2px solid #000;border-top:1px solid #000;}
+.cent_left3_top{ height:40px; width:238px;background-image:url(../hz_img/hd018.png);}
+.cent_left3_top span{font-size:24px; color:#F90; margin-right:10px;}
+.cent_left3_top h3{ font-weight:bold; font-size:14px; margin-left:10px;  color:#FFF; margin-bottom:20px;}
+.cent_left3_top h3:hover{ color:#F90;}
+.cent_left3_top li{list-style-type:none; line-height:20px; color:#999; margin-left:10px;}
+.left{ width:240px; height:650px; float:left;}
+.right{ width:860px; height:650px; float:left;}
+.cent_cent_top{ width:400px; height:30px;}
+.cent_cent_top1{float:left; height:30px; width:100px; text-align:center; font-size:16px; color:#FFF; line-height:30px; }
+.cent_cent_top2{float:right; height:30px; width:300px;}
+.cent_cent_img{ width:400px; height:100px;}
+.cent_img_left{ width:120px; height:100px; float:left;}
+.cent_img_left img{ margin-left:10px; margin-top:15px;}
+.cent_img_right{ width:280px; height:100px; float:right;}
+.cent_img_right h3{ color:#F90; font-size:16px; margin-top:20px;}
+.cent_img_right h3:hover{ color:#FC0;}
+.cent_img_right p{color:#FFF; font-size:12px; margin-top:10px;}
+.cent_cent_left{ width:400px; height:170px; float:left;}
+.cent_cent_left li{ color:#FFF; font-size:14px; margin-left:10px; margin-top:10px; line-height:20px;}
+.cent_cent_left span{ color:#999; font-size:12px;  float:right;  }
+.btnan{width:1100px; height:50px; margin:0 auto;}
+.bottom{ width:100%; height:300px;  background-color:#16171b;  border-bottom:1px solid  #666; border-top:1px solid #000;}
+.bottom_title{ width:100px; height:50px;  background-image:url(../hz_img/hd024.png);}
+.bottom_title h3{ font-size:14px; font-weight:bold; color:#FFF; text-align:center; line-height:50px; }
+.bottom_title span{ font-size:12px; color:#666;}
+.img{height: 300px;width: 130px;}/*其它这些css用不着，只是预览效果*/
+/************************************************************;*********滚动***********************************************/
+IMG {BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; VERTICAL-ALIGN: top; BORDER-LEFT-WIDTH: 0px;}
+.cms-home .main {PADDING-BOTTOM: 115px; PADDING-LEFT: 7px; PADDING-RIGHT: 6px; PADDING-TOP: 10px;}
+.cms-home .std {DISPLAY: none}
+.cms-home .products-grid {POSITION: relative; BORDER-BOTTOM-STYLE: none}
+.cms-home .last.products-grid {BORDER-BOTTOM-WIDTH: 0px}
+.cms-home .products-grid LI.item {POSITION: relative; BORDER-BOTTOM-STYLE: none; TEXT-ALIGN: center; PADDING-BOTTOM: 0px !important; BORDER-RIGHT-STYLE: none; MARGIN:10px; PADDING-LEFT: 0px !important; WIDTH: 230px; PADDING-RIGHT: 0px !important; BORDER-TOP-STYLE: none; FLOAT: left; HEIGHT: 170px; BORDER-LEFT-STYLE: none; PADDING-TOP: 0px !important;}
+.cms-home .products-grid LI.first {WIDTH: 230px;}
+.cms-home .products-grid LI.last {BORDER-RIGHT-STYLE: none; WIDTH: 230px}
+.cms-home .product-image-block {POSITION: relative; MARGIN: 0px auto; WIDTH: 230px}
+.cms-home .products-grid .product-image {	MARGIN: 0px auto 10px; WIDTH: 230px; DISPLAY: block; HEIGHT: 170px}
+.cms-home .products-grid .product-name {POSITION: absolute; TEXT-ALIGN: left; PADDING-BOTTOM: 15px; MARGIN: 0px auto; PADDING-LEFT: 15px; WIDTH: 215px; BOTTOM: 0px; PADDING-RIGHT: 0px; DISPLAY: none; background:#000; filter: alpha(opacity=40); background-color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0.4);  PADDING-TOP: 15px; LEFT: 0px; }
+.cms-home .products-grid .product-name A {TEXT-DECORATION: none; color:#FFF;}
+.cms-home .products-grid .product-name A:hover {TEXT-DECORATION: underline}
+.cms-home .indent-col-main {POSITION: relative;  PADDING-LEFT: 22px; PADDING-RIGHT: 25px; PADDING-TOP: 2px; width:1000px;margin:10px auto;}
+.cms-home .products-grid BUTTON.button {PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: auto; PADDING-RIGHT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; OVERFLOW: visible; BORDER-LEFT-WIDTH: 0px; CURSOR: pointer; PADDING-TOP: 0px}
+.cms-home .products-grid BUTTON.button SPAN {TEXT-ALIGN: center; PADDING-BOTTOM: 0px; TEXT-TRANSFORM: none; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT: 11px/16px Arial, Helvetica, sans-serif; WHITE-SPACE: nowrap; BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: left; HEIGHT: 16px; COLOR: #FFF; PADDING-TOP: 0px}
+.cms-home .products-grid BUTTON.button SPAN SPAN {PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-TOP: 0px}
+.std .subtitle {PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px}
+.std OL.ol {LIST-STYLE-POSITION: outside; LIST-STYLE-TYPE: decimal; PADDING-LEFT: 1.5em}
+.std UL.disc {LIST-STYLE-POSITION: outside; LIST-STYLE-TYPE: disc; MARGIN: 0px 0px 10px; PADDING-LEFT: 18px}
+.std DL DT {FONT-WEIGHT: bold}
+.std DL DD {MARGIN: 0px 0px 10px}
+.block-slider {POSITION: relative; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 1px; PADDING-LEFT: 0px; WIDTH: 1000px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px}
+.block-slider .box-top {POSITION: relative; MARGIN: 0px 35px 0px 0px; WIDTH: 700px; FLOAT: left; HEIGHT: 483px; COLOR: #616161; FONT-SIZE: 1.2em; OVERFLOW: hidden; LEFT: 9px}
+.block-slider UL {PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: 257px; OVERFLOW: hidden; PADDING-TOP: 0px}
+.block-slider UL LI {POSITION: relative; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 170px; PADDING-RIGHT: 0px; DISPLAY: block; FLOAT: left; HEIGHT: 483px; PADDING-TOP: 0px}
+.block-slider UL LI A {DISPLAY: block; TEXT-DECORATION: none}
+.block-slider UL LI A:hover {TEXT-DECORATION: none}
+.products-grid {BORDER-BOTTOM: #cecece 1px solid; POSITION: relative}
+.last.products-grid {BORDER-BOTTOM-WIDTH: 0px}
+.products-grid LI.item {TEXT-ALIGN: center; PADDING-BOTTOM: 0px; PADDING-LEFT: 20px; WIDTH: 195px; PADDING-RIGHT: 20px; FLOAT: left; BORDER-RIGHT: #cecece 1px solid; PADDING-TOP: 12px; }
+.products-grid LI.first {WIDTH: 182px}
+.products-grid LI.last {BORDER-RIGHT-STYLE: none; WIDTH: 180px}
+.product-image-block {POSITION: relative; MARGIN: 0px auto; WIDTH: 170px}
+.products-grid .product-image {MARGIN: 0px auto 10px; WIDTH: 170px; DISPLAY: block; HEIGHT: 170px}
+.products-grid .product-name {POSITION: absolute; TEXT-ALIGN: left; PADDING-BOTTOM: 15px; MARGIN: 0px auto; PADDING-LEFT: 15px; WIDTH: 155px; BOTTOM: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(images/bg_col_main.png) 0px 0px; PADDING-TOP: 15px; LEFT: 0px}
+.products-grid:after {LINE-HEIGHT: 0; DISPLAY: block; HEIGHT: 0px; CLEAR: both; FONT-SIZE: 0px; OVERFLOW: hidden; CONTENT: "."}
+
+#left_but {Z-INDEX: 999;POSITION: absolute;MARGIN: 0px;WIDTH: 16px;BACKGROUND: url(hz_img/prev.gif) no-repeat left top;HEIGHT: 29px;TOP: 50px;
+CURSOR: pointer;LEFT: 7px;background-image: url(../hz_img/prev.gif);}
+#left_but {
+	Z-INDEX: 999; POSITION: absolute; MARGIN: 0px; WIDTH: 16px; BACKGROUND: url(../hz_img/prev.gif) no-repeat left top; HEIGHT: 29px; TOP:100px;  CURSOR: pointer; LEFT: 7px
+}
+.over#left_but {	BACKGROUND: url(../hz_img/prev_hover.gif) no-repeat left top}
+#right_but {
+	POSITION: absolute;
+	MARGIN: 0px;
+	WIDTH: 16px;
+	BACKGROUND: url(../hz_img/next.gif) no-repeat left top;
+	HEIGHT: 29px;
+	TOP: 100px;
+	CURSOR: pointer;
+	RIGHT: 8px;
+	background-image: url(../hz_img/next.gif);}
+	
+.over#right_but {BACKGROUND:url(../hz_img/next_hover.gif) no-repeat left top}
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+body{ background-color:#25262a; list-style:none; text-decoration:none;}
+body a:link{ text-decoration:none;}
+.header{ width:1000px; height:120px; margin:0 auto;}
+.logo{ height:43px; width:46px; float:left; padding-top:20px;}/*头部*/
+.logo_title{ width:200px; height:43px; float:left; margin:10px 0 0 10px;}
+.logo_li{ font:bold 32px 微软雅黑; color:#FFF;}
+.logo_li1{ font:bold 10px 微软雅黑; color:#999;}
+.header_right{ width:245px; height:43px; margin:10px 0 0 450px; float:left;}
+.header_right_li{ font: bold 16px 微软雅黑; color:#FFF; text-align:right;}
+.header_right_li1{ font:bold 30px 微软雅黑; color:#F60; text-align:right;}
+.header_phone{ width:40px; height:40px; float:left; margin-top:20px;}
+.list{ height:45px; background-color:#CCC; width:100%; padding-top:10px; text-align:center;}
+.top{ width:1000px; margin:0 auto;}
+
+.list_div{ float:left; width:100px; font:bold 17px 幼圆; margin-right:10px; text-align:center;}/*目录文字*/
+.list_div a{ color:#333;}
+.list_div a:hover{ color:#F60; text-decoration:none;}
+
+.list_li{ float:left; width:100px; font:bold 13px 微软雅黑; margin-right:10px; text-align:center; color:#666;}/*目录英文*/
+

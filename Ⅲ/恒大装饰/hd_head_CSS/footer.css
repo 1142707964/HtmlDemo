@@ -1,0 +1,14 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/*********************************************尾部************************************************/
+body{ background-color:#25262a; list-style:none; text-decoration:none;}
+body a:link{ text-decoration:none;}
+.footer{ width:100%; height:40px; float:left; margin:30px auto; background:#CCC;}
+.footer li{ float:left; font:bold 16px 幼圆; margin:0 21px 0 21px;}
+.footer li a:link{ color:#333;}
+.footer li a:hover{ color:#F60;}
+.top{ width:1000px; margin:10px auto;}
+
+.end{ color:#999; font:bold 13px 楷书; text-align:center; line-height:25px;}
+.end a:link{ color:#999;}
+.end a:hover{ color:#F60;}

@@ -1,0 +1,120 @@
+﻿<html>
+<head>
+	<link type="text/css" href="css/default.css" rel="stylesheet" />
+	<style>
+	body{
+		background-color:#F7F7F7;
+		font:12px 微软雅黑,宋体,Arial,sans-serif;
+		margin:0px;
+		/*background-image:url(../images/bg6.jpg);*/
+		color:#858585;
+	}
+	.top{
+			width:100%;
+			height:50px;
+			background-color:#0070D7;
+			margin:0px;
+		}
+	.menu{
+		width:800px;
+		color:white;
+		margin:0 auto;
+		height:50px;
+	}	
+	.menu span{
+		display:inline-block;
+		margin-top:10px;
+		margin-left:20px;
+		font-size:15px;
+		height:30px;
+		width:50px;
+		line-height:30px;
+		text-align:center;
+	}
+	.menu .logo{
+		font-size:20px;
+		width:150px;
+	}
+	.main{
+		width:100%;
+		margin-top:50px;
+	}
+	.main .tag{
+		margin:0 auto;
+		width:200px;
+		font-size:18px;
+		border-bottom:1px solid #878787;
+		text-align:center;
+	}
+	.main .images{
+		margin:0 auto;
+		width:80%;
+		margin-top:50px;
+	}
+	</style>
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/jquery.jslider.js" type="text/javascript"></script>
+</head>
+<body>
+	<div class="top">
+		<div class="menu">
+			<span class="logo">思途CMS</span>
+			<span style="background-color:#075EAD;">首页</span>
+			<span>景点</span>
+			<span>食宿</span>
+			<span>租车</span>
+			<span>结伴</span>
+			<span>同城</span>
+			<span>问答</span>
+			<span>游记</span>
+		</div>
+	</div>
+	<div class="banner">
+			<div class="swap">
+				<ul id="slider">
+					<li style="background:url(images/1.jpg) center center no-repeat #009ee3;" id="myicloud"></li>
+					<li style="background:url(images/2.jpg) center center no-repeat #ffcc00;"></li>
+					<li style="background:url(images/3.jpg) center center no-repeat #303030;"></li>
+				</ul>
+			</div>
+			<ul id="naviSlider">
+				<li sindex="1" class="on"></li>
+				<li sindex="2"></li>
+				<li sindex="3"></li>
+			</ul>
+	</div>
+	<div class="main">
+		<div class="tag">
+			热门目的地
+		</div>
+		<div class="images">
+			<div style="float:left;margin:5px;">
+				<img src="images/p/1.jpg" style="width:250px;height:200px;"/>
+			</div>
+			<div style="float:left;margin:5px;">
+				<img src="images/p/2.jpg"  style="width:250px;height:200px;"/>
+			</div>
+			<div style="float:left;margin:5px;">
+				<img src="images/p/3.jpg"  style="width:250px;height:200px;"/>
+			</div>
+			<div style="float:left;margin:5px;">
+				<img src="images/p/4.jpg"  style="width:250px;height:200px;"/>
+			</div>
+		</div>
+		<div style="clear:both;"></div>
+		<div style="margin-bottom:20px;">
+		</div>
+	</div>
+	
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$("#slider").jSlider({
+				pause:1500,
+				naviSlider:'naviSlider'
+			}
+		);
+					
+	})
+	</script>
+</body>
+</html>
